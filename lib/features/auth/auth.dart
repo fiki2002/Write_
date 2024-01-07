@@ -1,2 +1,10 @@
 export 'presentation/views/auth_view.dart';
-export 'presentation/components/auth_form.dart';
+export 'presentation/widgets/sign_in_input_section.dart';
+export 'presentation/bloc/auth_bloc.dart';
+export 'presentation/components/input_section.dart';
+export 'presentation/widgets/text_header_section.dart';
+export 'auth_locator.dart';
+export 'presentation/widgets/sign_up_input_section.dart';
+export 'presentation/atoms/sign_up_form.dart';
+export 'presentation/atoms/or_widget.dart';
+export 'presentation/atoms/social_buttons.dart';

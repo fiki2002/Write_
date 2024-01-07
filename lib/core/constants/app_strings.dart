@@ -11,4 +11,6 @@ const String or = 'OR';
 const String continueWithTwitter = 'Continue with Twitter';
 const String continueWithFacebook = 'Continue with Facebook';
 const String signIn = 'Sign In';
+const String signUp = 'Sign Up';
 const String forgotPassword = 'Forgot Password?';
+const String name = 'Name';

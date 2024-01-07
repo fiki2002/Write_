@@ -32,7 +32,10 @@ class _SplashViewState extends State<SplashView> {
               Center(
                 child: Opacity(
                   opacity: val,
-                  child: const WriteWidget(),
+                  child: const Hero(
+                    tag: 'write',
+                    child: WriteWidget(),
+                  ),
                 ),
               ),
             ],
@@ -45,7 +48,7 @@ class _SplashViewState extends State<SplashView> {
 
   void _timerForSplashScreen() {
     Timer(
-      const Duration(seconds: 6),
+      const Duration(seconds: 4),
       () {
         clearRoad(AuthView.route);
       },

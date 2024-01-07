@@ -10,7 +10,7 @@ class RouteGenerator {
     // final Object? args = settings.arguments;
 
     switch (settings.name) {
-      case '/':
+      case SplashView.route:
         return pageRoute(const SplashView());
 
       case AuthView.route:

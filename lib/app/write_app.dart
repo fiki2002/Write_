@@ -1,4 +1,6 @@
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:write/core/core.dart';
+import 'package:write/features/features.dart';
 
 class WriteApp extends StatelessWidget {
   const WriteApp({super.key});
@@ -10,12 +12,17 @@ class WriteApp extends StatelessWidget {
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, Widget? child) {
-        return MaterialApp(
-          title: 'Write',
-          initialRoute: '/',
-          debugShowCheckedModeBanner: false,
-          onGenerateRoute: RouteGenerator.generateRoute,
-          navigatorKey: navigatorKey,
+        return MultiBlocProvider(
+          providers: [
+            BlocProvider(create: (_) => AuthBloc()),
+          ],
+          child: MaterialApp(
+            title: 'Write',
+            initialRoute: SplashView.route,
+            debugShowCheckedModeBanner: false,
+            onGenerateRoute: RouteGenerator.generateRoute,
+            navigatorKey: navigatorKey,
+          ),
         );
       },
     );

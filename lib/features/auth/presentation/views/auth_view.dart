@@ -8,28 +8,11 @@ class AuthView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ScaffoldWidget(
+    return const ScaffoldWidget(
       body: Column(
         children: [
-          SizedBox(
-            height: screenHeight * .4,
-            child: const Center(
-              child: WriteWidget(),
-            ),
-          ),
-          AnimatedContainer(
-            duration: duration,
-            height: screenHeight * .6,
-            width: double.infinity,
-            decoration: BoxDecoration(
-              color: kBg,
-              borderRadius: BorderRadius.only(
-                topLeft: Radius.circular(sr(20)),
-                topRight: Radius.circular(sr(20)),
-              ),
-            ),
-            child: const AuthForm(),
-          ),
+          TextHeaderSection(),
+          InputSection(),
         ],
       ),
       usePadding: false,
