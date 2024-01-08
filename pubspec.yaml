@@ -1,0 +1,44 @@
+name: write
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.1
+  flutter_screenutil: ^5.9.0
+  flutter_bloc: ^8.1.3
+  get_it: ^7.6.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    
+  fonts:
+    - family: Helvetica
+      fonts:
+        - asset: assets/fonts/helveticaneue-roman.otf
+
+    - family: Typewriter
+      fonts:
+        - asset: assets/fonts/Typewriter-Serial-Bold.ttf
+  
+  
