@@ -8,3 +8,6 @@ export 'presentation/widgets/sign_up_input_section.dart';
 export 'presentation/atoms/sign_up_form.dart';
 export 'presentation/atoms/or_widget.dart';
 export 'presentation/atoms/social_buttons.dart';
+export 'presentation/components/reset_password_view.dart';
+export 'presentation/atoms/clipped_tip.dart';
+export 'presentation/atoms/auth_base_container.dart';

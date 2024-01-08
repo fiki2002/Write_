@@ -57,4 +57,6 @@ const double kfs32 = 32.0;
 const double kfs36 = 36.0;
 
 const Duration duration = Duration(seconds: 2);
+const Duration duration300 = Duration(milliseconds: 300);
+
 EdgeInsets padding1 = EdgeInsets.symmetric(horizontal: w(kGlobalPadding));

@@ -25,9 +25,10 @@ class SignInInputSection extends StatelessWidget {
           text: signIn,
         ),
         verticalGap(screenHeight * .02),
-        const TextWidget(
+        TextWidget(
           forgotPassword,
           textColor: kPrimaryColor,
+          onTap: () => goTo(ResetPasswordView.route),
         ),
       ],
     );

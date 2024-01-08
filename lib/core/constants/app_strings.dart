@@ -14,3 +14,4 @@ const String signIn = 'Sign In';
 const String signUp = 'Sign Up';
 const String forgotPassword = 'Forgot Password?';
 const String name = 'Name';
+const String recoverPassword = 'Recover Password';
