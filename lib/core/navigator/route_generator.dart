@@ -24,7 +24,10 @@ class RouteGenerator {
 
       case WriteView.route:
         return pageRoute(const WriteView());
-        
+
+      case PreviewView.route:
+        return pageRoute(const PreviewView());
+
       default:
         return errorRoute();
     }

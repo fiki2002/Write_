@@ -33,8 +33,12 @@ class SharedGridWidget extends StatelessWidget {
                   isFirst: i == 0,
                   isReader: isReader,
                   onTap: switch (isReader) {
-                    true => () {},
-                    false => i == 0 ? () => goTo(WriteView.route) : () {},
+                    true => () => goTo(PreviewView.route),
+                    false => i == 0
+                        ? () => goTo(WriteView.route)
+                        : (!isEmpty)
+                            ? () => goTo(PreviewView.route)
+                            : () {},
                   },
                   isEmpty: isEmpty,
                   child: const _ContentWidget(

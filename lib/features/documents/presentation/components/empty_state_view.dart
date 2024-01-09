@@ -6,7 +6,7 @@ class EmptyStateView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const SharedGridWidget(
-      isEmpty: true,
+      isEmpty: false,
       itemCount: 5,
     );
   }

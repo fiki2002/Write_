@@ -16,6 +16,10 @@ const String italicIcon = '$_baseIcon/italic.svg';
 const String underlinedIcon = '$_baseIcon/underlined.svg';
 const String colorText = '$_baseIcon/color_text.svg';
 const String emptyLottie = '$_baseLottie/empty.json';
+const String arrowLeftIcon = '$_baseIcon/ios_back.svg';
+const String checkBoxFilled = '$_baseIcon/check_box_filled.svg';
+const String checkBox = '$_baseIcon/check_box_not_checked.svg';
+const String arrowRight = '$_baseIcon/arrow_right.svg';
 
 const String write = 'Write_';
 const String email = 'Email';
@@ -34,5 +38,9 @@ const String settings = 'Settings';
 const String search = 'Search';
 const String save = 'Save';
 const String share = 'Share';
+const String writing = 'Writing';
 const String thereIsNothingToRead =
     'There is nothing to read\nyou sure do wanna write sum\'n';
+const String showWordCount = 'Show Word Count';
+const String other = 'Other';
+const String logOut = 'Log Out';

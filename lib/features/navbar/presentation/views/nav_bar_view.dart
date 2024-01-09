@@ -7,7 +7,7 @@ class NavBarView extends StatelessWidget {
 
   static void _onTap(int index) => _currentIndex.value = index;
   static final ValueNotifier<int> _currentIndex = ValueNotifier<int>(0);
-  
+
   @override
   Widget build(BuildContext context) {
     return ValueListenableBuilder<int>(
@@ -57,7 +57,7 @@ class NavBarView extends StatelessWidget {
   final List<Widget> _screens = [
     const DocumentsView(),
     const ReaderModeView(),
-    Container(color: Colors.yellow),
+    const SettingsView(),
   ];
 }
 
