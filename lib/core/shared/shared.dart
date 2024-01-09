@@ -5,3 +5,4 @@ export 'scaffold_widget.dart';
 export 'text_field_widget.dart';
 export 'text_widget.dart';
 export 'write_widget.dart';
+export 'shared_grid_widget.dart';

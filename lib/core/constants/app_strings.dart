@@ -1,5 +1,6 @@
 ///   Image and Icon Strings
 const String _baseIcon = 'assets/icons';
+const String _baseLottie = 'assets/lottie';
 
 const String twitterIcon = '$_baseIcon/twitter.svg';
 const String facebookIcon = '$_baseIcon/facebook.svg';
@@ -9,11 +10,12 @@ const String bookmarkIcon = '$_baseIcon/bookmark.svg';
 const String addIcon = '$_baseIcon/add.svg';
 const String boldIcon = '$_baseIcon/bold.svg';
 const String alignRight = '$_baseIcon/align_right.svg';
-const String alignLeft= '$_baseIcon/align_left.svg';
-const String alignCenter= '$_baseIcon/align_center.svg';
+const String alignLeft = '$_baseIcon/align_left.svg';
+const String alignCenter = '$_baseIcon/align_center.svg';
 const String italicIcon = '$_baseIcon/italic.svg';
 const String underlinedIcon = '$_baseIcon/underlined.svg';
 const String colorText = '$_baseIcon/color_text.svg';
+const String emptyLottie = '$_baseLottie/empty.json';
 
 const String write = 'Write_';
 const String email = 'Email';
@@ -32,3 +34,5 @@ const String settings = 'Settings';
 const String search = 'Search';
 const String save = 'Save';
 const String share = 'Share';
+const String thereIsNothingToRead =
+    'There is nothing to read\nyou sure do wanna write sum\'n';

@@ -1,5 +1,5 @@
 import 'package:write/core/core.dart';
-import 'package:write/features/documents/presentation/components/empty_state_view.dart';
+import 'package:write/features/features.dart';
 
 class DocumentsView extends StatelessWidget {
   const DocumentsView({super.key});
@@ -17,7 +17,7 @@ class DocumentsView extends StatelessWidget {
               ),
             ),
             vSpace(kfsMedium),
-            const _SearchTextField(),
+            const SearchTextField(),
             vSpace(kfsMedium),
             const EmptyStateView(),
           ],
@@ -28,34 +28,3 @@ class DocumentsView extends StatelessWidget {
   }
 }
 
-class _SearchTextField extends StatelessWidget {
-  const _SearchTextField();
-
-  @override
-  Widget build(BuildContext context) {
-    return SizedBox(
-      height: h(kfs56),
-      child: TextFormField(
-        textAlign: TextAlign.center,
-        cursorColor: kSecondaryColor,
-        cursorWidth: 1,
-        decoration: InputDecoration(
-          fillColor: kBg2,
-          filled: true,
-          contentPadding: EdgeInsets.zero,
-          hintStyle: const TextStyle(color: kSecondaryColor),
-          hintText: search,
-          border: _border,
-          enabledBorder: _border,
-          focusedBorder: _border,
-        ),
-      ),
-    );
-  }
-
-  OutlineInputBorder get _border {
-    return OutlineInputBorder(
-      borderRadius: BorderRadius.circular(sr(kMinute)),
-    );
-  }
-}

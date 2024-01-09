@@ -21,5 +21,7 @@ const Color kIconColor = Color(0xff666666);
 const Color kText1Color = Color(0xff767676);
 const Color kText2Color = Color(0xffA6A6A6);
 const Color kText3Color = Color(0xff808080);
+const Color kText4Color = Color(0xff2E2E2B);
+const Color kText5Color = Color(0xff908F8E);
 
 const Color kGreenShade = Color(0xff4BD864);
