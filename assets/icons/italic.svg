@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic/format_italic/white</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Text-Editor" transform="translate(-75, -8)">
+            <g id="Group-2" transform="translate(27, 5)">
+                <g id="ic_format_italic_24px" transform="translate(48, 3)">
+                    <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                    <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="10 4 10 7 12.21 7 8.79 15 6 15 6 18 14 18 14 15 11.79 15 15.21 7 18 7 18 4"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

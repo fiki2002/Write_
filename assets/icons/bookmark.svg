@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="22px" viewBox="0 0 26 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bookmark</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Graphics-/-Tab-Bar-Icons-/-Gray-/-Keypad-Copy" transform="translate(-2, -2)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="bookmark" transform="translate(2, 2)">
+                <path d="M16,0 C14.895,0 14,0.895 14,2 L14,22 C14,20.895 14.895,20 16,20 L24,20 C25.105,20 26,19.105 26,18 L26,2 C26,0.895 25.105,0 24,0 L16,0 Z" id="Shape"></path>
+                <path d="M10,0 C11.105,0 12,0.895 12,2 L12,22 C12,20.895 11.105,20 10,20 L2,20 C0.895,20 0,19.105 0,18 L0,2 C0,0.895 0.895,0 2,0 L10,0 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

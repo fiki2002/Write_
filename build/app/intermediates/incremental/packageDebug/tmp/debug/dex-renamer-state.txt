@@ -1,4 +1,4 @@
-#Sun Jan 07 18:35:19 WAT 2024
+#Tue Jan 09 15:34:11 WAT 2024
 base.0=/Users/apple/Workspace/write/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

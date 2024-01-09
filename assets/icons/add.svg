@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle 3</title>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.5">
+        <g id="Documents---Empty" transform="translate(-78, -242)" fill="#FFFFFF">
+            <g id="New-Document" transform="translate(15, 164)">
+                <path d="M83,78 C84.1045695,78 85,78.8954305 85,80 L85,96 L101,96 C102.104569,96 103,96.8954305 103,98 C103,99.1045695 102.104569,100 101,100 L85,100 L85,116 C85,117.104569 84.1045695,118 83,118 C81.8954305,118 81,117.104569 81,116 L81,100 L65,100 C63.8954305,100 63,99.1045695 63,98 C63,96.8954305 63.8954305,96 65,96 L81,96 L81,80 C81,78.8954305 81.8954305,78 83,78 Z" id="Rectangle-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

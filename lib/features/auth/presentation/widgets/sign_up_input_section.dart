@@ -15,7 +15,7 @@ class SignUpInputSection extends StatelessWidget {
         const SocialButtons(),
         verticalGap(screenHeight * .03),
         Button(
-          onTap: () {},
+          onTap: () => clearRoad(NavBarView.route),
           text: signUp,
         ),
       ],

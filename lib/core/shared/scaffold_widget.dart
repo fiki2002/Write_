@@ -19,7 +19,7 @@ class ScaffoldWidget extends StatelessWidget {
     this.extendBody,
     this.statusBarColor,
     this.navBarColor,
-    this.isLight = false,
+    this.isLight = false, this.resizeToAvoidBottomInset,
   });
 
   final Widget? drawer;
@@ -38,6 +38,7 @@ class ScaffoldWidget extends StatelessWidget {
   final Color? statusBarColor;
   final Color? navBarColor;
   final bool? isLight;
+  final bool? resizeToAvoidBottomInset;
 
   @override
   Widget build(BuildContext context) {
@@ -66,6 +67,7 @@ class ScaffoldWidget extends StatelessWidget {
       ),
       child: Scaffold(
         drawerEnableOpenDragGesture: true,
+        resizeToAvoidBottomInset: resizeToAvoidBottomInset,
         key: scaffoldKey,
         appBar: appBar,
         extendBody: extendBody ?? false,
@@ -81,9 +83,9 @@ class ScaffoldWidget extends StatelessWidget {
                     physics: scrollPhysics,
                     child: Padding(
                       padding: EdgeInsets.fromLTRB(
-                        usePadding ? w(kfsExtraLarge) : 0,
-                        usePadding ? h(kfsExtraLarge) : 0,
-                        usePadding ? w(kfsExtraLarge) : 0,
+                        usePadding ? w(kfsMedium) : 0,
+                        usePadding ? h(kfsMedium) : 0,
+                        usePadding ? w(kfsMedium) : 0,
                         0,
                       ),
                       child: body,
@@ -91,7 +93,7 @@ class ScaffoldWidget extends StatelessWidget {
                   )
                 : Padding(
                     padding: EdgeInsets.symmetric(
-                      horizontal: usePadding ? w(kfsExtraLarge) : 0,
+                      horizontal: usePadding ? w(kfsMedium) : 0,
                     ),
                     child: body,
                   ),

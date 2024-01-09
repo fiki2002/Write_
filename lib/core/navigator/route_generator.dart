@@ -19,6 +19,12 @@ class RouteGenerator {
       case ResetPasswordView.route:
         return pageRoute(const ResetPasswordView());
 
+      case NavBarView.route:
+        return pageRoute(NavBarView());
+
+      case WriteView.route:
+        return pageRoute(const WriteView());
+        
       default:
         return errorRoute();
     }
